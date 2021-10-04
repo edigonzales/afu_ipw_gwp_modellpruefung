@@ -1,0 +1,20 @@
+INTERLIS 2.3;
+
+CONTRACTED MODEL GWP_Validierung_20211004 
+AT "https://example.com"
+VERSION "2021-10-04"  =
+    IMPORTS GWP_Bern_13_1, WV_Organisation;
+
+    VIEW TOPIC GWP_Validierung =
+        DEPENDS ON GWP_Bern_13_1.SIA405_Wasser_GWP, WV_Organisation.WV_Organisation_Wasser;	
+
+        VIEW v_Hydrant
+            PROJECTION OF GWP_Bern_13_1.SIA405_Wasser_GWP.Hydrant;
+            =
+            ALL OF Hydrant;
+            EXISTENCE CONSTRAINT Eigentuemer REQUIRED IN WV_Organisation.WV_Organisation_Wasser.Organisation:OBJ_ID;
+        END v_Hydrant;
+
+    END GWP_Validierung;
+
+END GWP_Validierung_20211004.

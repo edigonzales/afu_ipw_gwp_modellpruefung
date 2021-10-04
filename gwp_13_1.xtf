@@ -76,8 +76,10 @@
           </POLYLINE>
         </Geometrie>
         <Funktion>Anschlussleitung.normal</Funktion>
+        <Material>unbekannt</Material>
         <Durchmesser>31</Durchmesser>
         <Nennweite>5/4"</Nennweite>
+        <Lagebestimmung>geortet</Lagebestimmung>
         <Status>in_Betrieb</Status>
         <Baujahr>1800</Baujahr>
         <Aussenbeschichtung>unbekannt</Aussenbeschichtung>
@@ -86,15 +88,13 @@
         <Druckzone>Biberist (D1)</Druckzone>
         <Laenge>7944</Laenge>
         <Zustand>unbekannt</Zustand>
-        <StrangRef REF="ch18tp5x6gVqhb1T"/>
-        <Lagebestimmung>geortet</Lagebestimmung>
-        <Material>unbekannt</Material>
-        <Trinkwasser>nein</Trinkwasser>
-        <Subventionsberechtigung>Nicht_berechtigt</Subventionsberechtigung>
         <Eigentuemer>deg5mQXX20001001</Eigentuemer>
         <Betreiber>deg5mQXX20001001</Betreiber>
+        <StrangRef REF="ch18tp5x6gVqhb1T"/>
         <Datenherr>deg5mQXX20001001</Datenherr>
         <Datenlieferant>deg5mQXX20001001</Datenlieferant>
+        <Subventionsberechtigung>Nicht_berechtigt</Subventionsberechtigung>
+        <Trinkwasser>nein</Trinkwasser>
       </GWP_Bern_13_1.SIA405_Wasser_GWP.Leitung>
       <GWP_Bern_13_1.SIA405_Wasser_GWP.Hydrant TID="ch18tp5x6gVoZrHo">
         <OBJ_ID>ch18tp5x6gVoZrHo</OBJ_ID>
@@ -115,18 +115,20 @@
         <Lagebestimmung>genau</Lagebestimmung>
         <Hoehe>449.628</Hoehe>
         <Einbaujahr>2007</Einbaujahr>
+        <Eigentuemer>deg5mQXX20001001</Eigentuemer>
         <KnotenRef REF="ch18tp5x6gVqgQUW"/>
         <Name_Nummer>276</Name_Nummer>
         <Art>Oberflurhydrant.zweiarmig</Art>
         <Hersteller>Hinni</Hersteller>
+        <Versorgungsdruck>99.9</Versorgungsdruck>
         <Typ>Oberflurhy</Typ>
-        <Eigentuemer>deg5mQXX20001001</Eigentuemer>
         <Betreiber>deg5mQXX20001001</Betreiber>
         <Datenherr>deg5mQXX20001001</Datenherr>
         <Datenlieferant>deg5mQXX20001001</Datenlieferant>
-        <Versorgungsdruck>99.9</Versorgungsdruck>
         <Status>in_Betrieb.provisorisch</Status>
       </GWP_Bern_13_1.SIA405_Wasser_GWP.Hydrant>
     </GWP_Bern_13_1.SIA405_Wasser_GWP>
+    <GWP_Bern_13_1.Organisation_Constraints BID="GWP_Bern_13_1.Organisation_Constraints">
+</GWP_Bern_13_1.Organisation_Constraints>
   </DATASECTION>
 </TRANSFER>

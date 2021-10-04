@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.5.0-fc023c8d2d8cd44d792927e45dc80c1ad973f095" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="WV_Organisation" VERSION="2021-07-13" URI="http://www.bve.be.ch/bve/de/index/wasser/wasser/wasserversorgung/RESEAU.html"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <WV_Organisation.WV_Organisation_Wasser BID="WV_Organisation.WV_Organisation_Wasser">
+      <WV_Organisation.WV_Organisation_Wasser.Organisation TID="deg5mQXX20001001">
+        <Bemerkung>Allgemeine Bemerkungen</Bemerkung>
+        <Bezeichnung>Offizielle Bezeichnung</Bezeichnung>
+        <Gemeindenummer>2513</Gemeindenummer>
+        <Kurzbezeichnung>Biberist</Kurzbezeichnung>
+        <Letzte_Aenderung>20211004</Letzte_Aenderung>
+        <OBJ_ID>deg5mQXX20001001</OBJ_ID>
+        <Organisationstyp>Gemeinde</Organisationstyp>
+        <Status>aktiv</Status>
+        <UID>CHE115088004</UID>
+      </WV_Organisation.WV_Organisation_Wasser.Organisation>
+    </WV_Organisation.WV_Organisation_Wasser>
+  </DATASECTION>
+</TRANSFER>
